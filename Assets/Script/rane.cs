@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class rane : MonoBehaviour {
+	bool onPlay = false;
 
 	// Use this for initialization
 	void Start () {
@@ -10,8 +11,13 @@ public class rane : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += new Vector3(2f*Time.deltaTime, 0f, 0f);
-		// 参考 http://vivi.dyndns.org/tech/cs/moveObject.html
+		if (Input.GetKeyDown("space") && onPlay==false) {
+			onPlay = true;
+		}
+		if (onPlay) {
+			transform.position += new Vector3(2f*Time.deltaTime, 0f, 0f);
+			// 参考 http://vivi.dyndns.org/tech/cs/moveObject.html
+		}
 	}
 }
 

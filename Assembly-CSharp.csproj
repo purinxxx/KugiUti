@@ -45,9 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\AllocMem.cs" />
+     <Compile Include="Assets\Script\Music.cs" />
      <Compile Include="Assets\Script\hammer.cs" />
      <Compile Include="Assets\Script\kugiuti.cs" />
      <Compile Include="Assets\Script\rane.cs" />
+     <Compile Include="Assets\Script\removeobject.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
