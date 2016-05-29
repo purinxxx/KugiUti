@@ -16,6 +16,7 @@ public class rane : MonoBehaviour {
 		}
 		if (onPlay) {
 			transform.position += new Vector3(2f*Time.deltaTime, 0f, 0f);
+			// 秒速移動
 			// 参考 http://vivi.dyndns.org/tech/cs/moveObject.html
 		}
 	}

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Script\AllocMem.cs" />
      <Compile Include="Assets\Script\Music.cs" />
      <Compile Include="Assets\Script\hammer.cs" />
+     <Compile Include="Assets\Script\humen.cs" />
      <Compile Include="Assets\Script\kugiuti.cs" />
      <Compile Include="Assets\Script\rane.cs" />
      <Compile Include="Assets\Script\removeobject.cs" />
