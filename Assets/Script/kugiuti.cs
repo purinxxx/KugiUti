@@ -16,7 +16,12 @@ public class kugiuti : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag ("kugi")) {
-			other.gameObject.transform.position += new Vector3 (0f, -0.45f, 0f);
+			if (other.gameObject.transform.position.y == 1.25f) {
+				//ookii kugi
+				other.gameObject.transform.position += new Vector3 (0f, -0.7f, 0f);
+			} else if (other.gameObject.transform.position.y == 1) {
+				other.gameObject.transform.position += new Vector3 (0f, -0.45f, 0f);
+			}
 			//Destroy(other.gameObject);
 			//gameObject.transform.position = Vector3.up * 5;
 		}

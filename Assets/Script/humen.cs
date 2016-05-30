@@ -28,7 +28,7 @@ public class humen : MonoBehaviour {
 
 	void loadhumen() {
 		float bpm = 150;
-		float[] humen = {0,0,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1};
+		float[] humen = {0,1,1,0,1,1,2,2,1,2,2,0,1,1,2,2,1,2,2,0};
 		createhumen (bpm, humen);
 	}
 
@@ -48,6 +48,10 @@ public class humen : MonoBehaviour {
 			if (i == 1) {
 				// kugi作成
 				k = (GameObject)Instantiate (kugi, new Vector3((-1-j)*kugikankaku, 1, 0), Quaternion.identity);
+				k.transform.parent = RaneController.transform;
+			}else if(i==2){
+				//ookii kugi
+				k = (GameObject)Instantiate (kugi, new Vector3((-1-j)*kugikankaku, 1.25f, 0), Quaternion.identity);
 				k.transform.parent = RaneController.transform;
 			}
 			j++;
