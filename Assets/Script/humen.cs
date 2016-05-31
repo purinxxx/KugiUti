@@ -13,6 +13,7 @@ public class humen : MonoBehaviour {
 
 	string txt = "";
 	string[] arrtxt;
+	public static float cnt = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -67,11 +68,13 @@ public class humen : MonoBehaviour {
 			}
 			//print (i);
 			if (h == 1) {
+				cnt++;
 				// kugi作成
 				k = (GameObject)Instantiate (kugi, new Vector3((-1-j)*kugikankaku, 1, 0), Quaternion.identity);
 				k.transform.parent = RaneController.transform;
 			}else if(h == 2){
-				//ookii kugi
+				cnt++;
+				// ookii kugi
 				k = (GameObject)Instantiate (kugi, new Vector3((-1-j)*kugikankaku, 1.25f, 0), Quaternion.identity);
 				k.transform.parent = RaneController.transform;
 			}

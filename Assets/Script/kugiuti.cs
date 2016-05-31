@@ -2,10 +2,13 @@
 using System.Collections;
 
 public class kugiuti : MonoBehaviour {
+	public static float result = 0;
+
+	//static int cnt;
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -15,7 +18,10 @@ public class kugiuti : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider other) {
+		//print (humen.cnt);
 		if (other.gameObject.CompareTag ("kugi")) {
+			result++;
+			print(100*result/humen.cnt);
 			if (other.gameObject.transform.position.y == 1.25f) {
 				//ookii kugi
 				other.gameObject.transform.position += new Vector3 (0f, -0.7f, 0f);
