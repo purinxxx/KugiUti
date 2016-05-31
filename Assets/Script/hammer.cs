@@ -14,6 +14,7 @@ public class hammer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown("space")) {
+		//if (Input.anyKey) {
 			animator.Play("hammeranimation", 0, 0.0f);
 			animator.speed = 1;
 		}
