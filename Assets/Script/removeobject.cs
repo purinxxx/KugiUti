@@ -15,7 +15,7 @@ public class removeobject : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		Destroy(other.gameObject);
-		print (other.gameObject);
+		//print (other.gameObject);
 		if (other.gameObject.ToString().Contains("wood")) {
 			//
 		}

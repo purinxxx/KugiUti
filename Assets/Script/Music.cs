@@ -19,7 +19,7 @@ public class Music : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown("space") && onPlay==false) {
 			onPlay = true;
-			//audioSource.Play();
+			audioSource.Play();
 		}
 		if (onPlay) {
 			cnt++;
@@ -28,4 +28,5 @@ public class Music : MonoBehaviour {
 			//print (cnt);
 		}
 	}
+
 }
