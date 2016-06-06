@@ -50,6 +50,7 @@
      <Compile Include="Assets\Script\hammer.cs" />
      <Compile Include="Assets\Script\humen.cs" />
      <Compile Include="Assets\Script\kugiuti.cs" />
+     <Compile Include="Assets\Script\loadbutton.cs" />
      <Compile Include="Assets\Script\rane.cs" />
      <Compile Include="Assets\Script\removeobject.cs" />
      <Compile Include="Assets\Script\se.cs" />
