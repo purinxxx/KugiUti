@@ -1,18 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/humen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/loadbutton.cs">
     <Files>
       <File FileName="../../leap/Assets/LeapMotion/Scripts/HandController.cs" Line="1" Column="1" />
       <File FileName="../../leap/Assets/LeapMotion/DemoResources/Scripts/HandCycler.cs" Line="1" Column="1" />
       <File FileName="../../leap/Assets/Hundle.cs" Line="1" Column="1" />
       <File FileName="../../leap/Assets/LeapMotion/Scripts/Hands/SkeletalHand.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Music.cs" Line="22" Column="4" />
+      <File FileName="Assets/Script/Music.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/hammer.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/rane.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/removeobject.cs" Line="24" Column="1" />
-      <File FileName="Assets/Script/kugiuti.cs" Line="24" Column="32" />
+      <File FileName="Assets/Script/removeobject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/kugiuti.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/humen.cs" Line="45" Column="4" />
-      <File FileName="Assets/Script/se.cs" Line="26" Column="1" />
+      <File FileName="Assets/Script/se.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/loadbutton.cs" Line="4" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
