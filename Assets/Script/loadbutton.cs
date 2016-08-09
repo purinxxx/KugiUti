@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class loadbutton : MonoBehaviour {
-
+	public static float kyoku = 1;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +14,10 @@ public class loadbutton : MonoBehaviour {
 	}
 
 	public void SceneLoad () {
+		Application.LoadLevel("play");
+	}
+	public void SceneLoad2 () {
+		kyoku = 2;
 		Application.LoadLevel("play");
 	}
 }

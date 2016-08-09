@@ -32,7 +32,11 @@ public class humen : MonoBehaviour {
 	void loadhumen() {
 		//float bpm = 150;
 		//float[] humen = {0,1,1,0,1,1,2,2,1,2,2,0,1,1,2,2,1,2,2,0};
+		print (loadbutton.kyoku);
 		FileInfo fi = new FileInfo(Application.dataPath + "/" + "test.txt");
+		if (loadbutton.kyoku == 2) {
+			fi = new FileInfo(Application.dataPath + "/" + "2.txt");
+		}
 		try {
 			// 一行毎読み込み
 			using (StreamReader sr = new StreamReader(fi.OpenRead(), Encoding.UTF8)){

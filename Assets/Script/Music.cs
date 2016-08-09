@@ -6,11 +6,15 @@ public class Music : MonoBehaviour {
 	float duration;
 	float cnt;
 	public AudioClip audioClip;
+	public AudioClip audioClip2;
 	AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
 		audioSource = gameObject.GetComponent<AudioSource>();
+		if (loadbutton.kyoku == 2) {
+			audioSource.clip = audioClip2;
+		}
 		duration = 0;
 		cnt = -60;
 	}

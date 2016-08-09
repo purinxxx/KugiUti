@@ -24,9 +24,9 @@ public class kugiuti : MonoBehaviour {
 			print(100*result/humen.cnt);
 			if (other.gameObject.transform.position.y == 1.25f) {
 				//ookii kugi
-				other.gameObject.transform.position += new Vector3 (0f, -0.7f, 0f);
+				other.gameObject.transform.position += new Vector3 (0f, -0.58f, 0f);
 			} else if (other.gameObject.transform.position.y == 1) {
-				other.gameObject.transform.position += new Vector3 (0f, -0.45f, 0f);
+				other.gameObject.transform.position += new Vector3 (0f, -0.33f, 0f);
 			}
 			//Destroy(other.gameObject);
 			//gameObject.transform.position = Vector3.up * 5;
